@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\user\Desktop\WizHouse\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a497a6b3789bf7776babf31d87177409ece642d3">
+        <dex dex="C:\Users\user\Desktop\WizHouse\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8d2967e15cf39c8d40c776a6bb4ac2bdfa30d732\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\user\Desktop\WizHouse\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_006ce85cced6eb823a57555fe4999c1641a59cea\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\WizHouse\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\user\Desktop\WizHouse\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_5484bfa0565fe7585f93b3a71be29535042bcb21\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\WizHouse\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\user\Desktop\WizHouse\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_140c8bffec67654c6ef814a3be3f993c36879e1d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\WizHouse\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5f5f2ae190663117b22e1c5975dd9c98786acf7a">
+        <dex dex="C:\Users\user\Desktop\WizHouse\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cc94e271b4eeb2a33d5a55c1eb64708b4d1c5bf4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\WizHouse\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\user\Desktop\WizHouse\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_b56eaf3f3d6fa53f689df4ec3f6736815b77bc53\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\user\Desktop\WizHouse\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_2e72e302ffd6b79186378a784ce0ab56c1009f7d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\user\Desktop\WizHouse\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_1cb67a1a5ff343a7ddc6cefec4d0194257c780d3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="C:\Users\user\Desktop\WizHouse\app\build\intermediates\transforms\dex\debug\folders\1000\10\parse-android-1.13.0_fd87ad060b6affd08bdf5966c08a011cc34b5a44\classes.dex" />
+    </item>
+
+</items>

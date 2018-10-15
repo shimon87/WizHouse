@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dev.myparselogin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.example.dev.wizhouse.ParseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Wizhouse"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.dev.wizhouse.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.dev.wizhouse.LoginActivity" />
+        <activity android:name="com.example.dev.wizhouse.Welcome" />
+        <activity android:name="com.example.dev.wizhouse.Register" />
+        <activity android:name="com.example.dev.wizhouse.ActivateActivity" />
+    </application>
+
+</manifest>

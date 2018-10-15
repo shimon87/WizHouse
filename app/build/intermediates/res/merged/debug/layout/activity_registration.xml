@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblHead"
+        android:text="Register."
+        android:textColor="#4ca4e8"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRegisterEmail"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/txtRegisterPassword"
+        android:layout_alignStart="@+id/txtRegisterPassword" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRegisterPassword"
+        android:layout_below="@id/txtRegisterEmail"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/txtConfirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtRegisterPassword"
+        android:layout_centerHorizontal="true"
+        android:ems="8"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSerialNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/txtArduinoPassword"
+        android:hint="Arduino Serial Number"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtArduinoPassword"
+        android:layout_above="@+id/txtRegisterEmail"
+        android:layout_centerHorizontal="true"
+        android:hint="Arduino Password"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:text="Register"
+        android:layout_below="@id/txtConfirmPassword"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

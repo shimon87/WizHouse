@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#64c1eb">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="55dp"
+        android:textColor="#070707"
+        android:id="@+id/lblWelcome"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblLoggedInAs"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogout"
+        android:background="@drawable/logoutbutton"
+        android:layout_marginBottom="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnActivate"
+        android:background="@drawable/activatebutton"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnLogout"
+        android:layout_alignStart="@+id/btnLogout" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnWhoHome"
+        android:background="@drawable/whohomebutton"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_alignTop="@+id/btnLogout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDataUsage"
+        android:background="@drawable/datausagebutton"
+        android:layout_alignTop="@+id/btnActivate"
+        android:layout_alignLeft="@+id/btnWhoHome"
+        android:layout_alignStart="@+id/btnWhoHome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="צריכת נתונים"
+        android:id="@+id/lblDataUsage"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnActivate"
+        android:layout_toLeftOf="@+id/lblWelcome"
+        android:layout_toStartOf="@+id/lblWelcome"
+        android:layout_alignRight="@id/btnDataUsage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הפעלה"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/lblActivate"
+        android:layout_below="@+id/btnActivate"
+        android:layout_alignRight="@+id/btnActivate"
+        android:layout_alignEnd="@+id/btnActivate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="מי בבית"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnWhoHome"
+        android:layout_alignLeft="@+id/btnWhoHome"
+        android:layout_alignStart="@+id/btnWhoHome"
+        android:id="@+id/lblWhoHome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblLogout"
+        android:text="התנתק"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/lblWhoHome"
+        android:layout_alignRight="@+id/btnLogout"
+        android:layout_alignEnd="@+id/btnLogout" />
+
+
+
+</RelativeLayout>
